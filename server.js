@@ -2,9 +2,9 @@ var http = require('http');
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : '060510shiba',
+  host     : 'shibata.cytjkt9qynol.ap-northeast-1.rds.amazonaws.com',
+  user     : 'shibata',
+  password : 'password',
   database : 'blog'
 });
 
